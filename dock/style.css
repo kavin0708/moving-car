@@ -1,0 +1,53 @@
+body {
+  background-color: lightblue;
+}
+
+#sun {
+  height: 10em;
+  width: 10em;
+  background-color: yellow;
+  border-radius: 50%;
+}
+
+#car {
+ top: 86%;
+ right: 1%;
+ position: fixed;
+}
+
+.car-body {
+ height: 50px;
+ width: 90px;
+ background-color: red;
+ border-top-left-radius: 30%;
+ border-top-right-radius: 30%;
+}
+
+.tire {
+height: 20px;
+width: 20px;
+border-radius: 50%;
+background-color: grey;
+}
+
+.tire-front {
+transform: translate(10px, -14px)
+}
+
+.tire-back {
+transform: translate(55px, -34px);
+}
+
+.window {
+height: 23px;
+width: 23px;
+background-color: white;
+}
+
+.window-front {
+transform: translate(10px, -80px);
+}
+
+.window-back {
+transform: translate(55px, -103px);
+}
